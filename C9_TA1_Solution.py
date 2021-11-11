@@ -13,7 +13,7 @@ while carryOn:
         if event.type == pygame.QUIT: 
             carryOn = False
     
-    # Store the background image in a variable "bgImg_name"
+    # Store the background image name with extension in a variable "bgImg_name"
     bgImg_name = "road.png"
     # Load the background image and store it in a variable "bgImg"
     bgImg = pygame.image.load(bgImg_name).convert_alpha()
